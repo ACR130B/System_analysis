@@ -1,7 +1,7 @@
 import json
 import numpy as np
 
-def task5(ranking_str_1: str, ranking_str_2:str) -> str:
+def task(ranking_str_1: str, ranking_str_2:str) -> str:
     rank_1 = json.loads(ranking_str_1)
     rank_2 = json.loads(ranking_str_2)
 
